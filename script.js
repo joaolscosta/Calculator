@@ -12,4 +12,5 @@ function buttonClick(value) {
     // this is a number
     handleNumber(value);
   }
+  screen.innerText = buffer;
 }
