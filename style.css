@@ -1,114 +1,37 @@
 body {
-  margin: 2px;
-  padding: 2px;
-  align-items: center;
-  background: linear-gradient(rgb(255, 221, 148), rgb(227, 255, 227)) fixed;
   display: flex;
-  font-family: "Courier New", Courier, monospace;
-  font-display: swap;
-  height: inherit;
+  align-items: center;
   justify-content: center;
 }
 
 .border {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  top: auto;
-  bottom: auto;
-  border: 1px linear-gradient(45deg, #f5f5f5, #f07a7a) fixedec78;
-  border-radius: 10px;
-  padding: 20px;
-  background: linear-gradient(45deg, #fff58a, #ff8c8c) fixed;
-
-  width: 50%;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: lightblue;
 }
 
 .screen {
-  align-items: center;
-  background: rgba(255, 239, 224, 0.808);
-  backdrop-filter: blur(10px);
-  border-radius: 6px;
-  padding: 2px;
-  -webkit-backdrop-filter: blur(5.5px);
-  border: 1px rgba(255, 206, 197, 0.808);
-
-  color: #232323;
-  font-size: 18px;
-  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1px;
+  height: 20px;
   text-align: right;
+  margin: 5px;
 }
 
 .button-row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10px 0px;
 }
 
 .button {
-  flex-basis: 18%;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: rgba(255, 239, 224, 0.808);
-  border: 1px rgba(255, 239, 224, 0.808);
-  border-radius: 6px;
-  font-size: 11px;
-  height: 24px;
-  text: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
 }
 
-.button:hover {
-  background: rgba(255, 222, 190, 0.808);
-}
-
-.button:active {
-  background: linear-gradient(rgb(255, 247, 172), rgb(255, 255, 255)) fixed;
-}
-
-.button:last-child {
-  flex-basis: 25%;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: rgba(253, 212, 193, 0.815);
-  border-radius: 8px;
-  font-size: 11px;
-  height: 24px;
-  color: white;
-}
-
-.button:last-child:hover {
-  flex-basis: 25%;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: rgba(255, 230, 220, 0.815);
-  border-radius: 8px;
-  font-size: 11px;
-  height: 24px;
-  color: white;
-}
-
-.button:last-child:active {
-  flex-basis: 25%;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: linear-gradient(rgb(255, 168, 87), rgb(255, 130, 130)) fixed;
-  border-radius: 8px;
-  font-size: 11px;
-  height: 24px;
-  color: white;
-}
-
-#clear {
-  flex-basis: 50%;
-}
-
-#zero {
-  flex-basis: 50%;
-}
-
-/*
-flash
-psycogp
-psycopg.pool
-*/
