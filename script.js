@@ -24,10 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
           previousInput = '';
           operator = '';
         }
-        else {
-          // No input from user
-        }
-      } else if (['+', '-', '×', '÷'].includes(buttonText)) { // Operator
+      } else if (['+', '−', '×', '÷'].includes(buttonText)) { // Operator
         if (currentInput) {
           if (previousInput) { // Already have an operator, calculate the result
             currentInput = evaluate(previousInput, currentInput, operator);
@@ -54,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     switch (operator) {
       case '+':
         return (a + b).toString();
-      case '-':
+      case '−':
         return (a - b).toString();
       case '×':
         return (a * b).toString();
